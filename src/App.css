@@ -1,0 +1,85 @@
+.Todo-list-container{
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(229, 215, 240);
+  width: 70%;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-left: 230px;
+  min-height: 60rem;
+}
+
+.form{
+  margin-left: 225px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  font-size: 5rem;
+  gap: 2rem;
+}
+
+.input::placeholder{
+  padding: 15px;
+  font-size: 2.5rem;
+}
+
+.input{
+  font-size: 2.5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 200%;
+  
+  
+}
+.btn{
+  border: 2px solid black;
+  background-color: rgb(225, 180, 242);
+  padding: 15px;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.btn:hover{
+  background-color: forestgreen;
+}
+
+.task-div{
+  background-color: aliceblue;
+  padding: 15px;
+  display: flex;
+  margin: 10px;
+  border-radius: 1rem;
+  margin-left: 225px;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(95, 89, 89);
+}
+.text{
+  font-size: 20px;
+  justify-content: flex-start;
+}
+.icons{
+  align-items: flex-end;
+  font-size: 2rem;
+  gap: 2.5rem;
+  display: flex;
+}
+
+.icons1:hover{
+  border-radius: 2rem;
+  background-color: green;
+}
+.icons2:hover{
+  border-radius: 2rem;
+  background-color: red;
+}
+
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: rgb(68, 235, 68);
+}
+.hide{
+  display: none;
+}
